@@ -3,10 +3,10 @@ from math import log, floor
 
 def checkpower_4(num):
 
-   c = log(num) / log(4)
+   number = log(num) / log(4)
 
    #    if it's an integer, return true
-   return c == floor(c)
+   return number == floor(number)
 
 
 if checkpower_4(78):

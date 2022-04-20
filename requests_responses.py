@@ -2,11 +2,11 @@
 
 import requests
 
-c = requests.get('https://www.linkedin.com/in/cheryl-owala-423731191/')
-print(c.text)
+user = requests.get('https://www.linkedin.com/in/cheryl-owala-423731191/')
+print(user.text)
 print("\n===========")
 
-print(c.content)
+print(user.content)
 
 r = requests.get("https://api.github.com/events", stream= True)
 print(r.raw)
